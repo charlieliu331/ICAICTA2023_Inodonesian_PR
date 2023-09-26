@@ -76,8 +76,8 @@ $ python3 ./create_pkl_dataset_new.py --data-path path/to/directory/with/cleaned
 ```
 $ pip install -r ./preprocess_TextGrid_data/requirements.txt
 $ cd sgh_dataset/
-$ python3 ../preprocess_TextGrid_data/TextGrids_to_txts.py --data-path ./sgh_TextGrid
-$ . ../preprocess_TextGrid_data/combine_txts.sh --path ./sgh_txt
+$ python3 ../preprocess_TextGrid_data/TextGrids_to_txts.py --data-path ./TextGrid
+$ . ../preprocess_TextGrid_data/combine_txts.sh --path ./txt
 $ python3 ../../preprocess_TextGrid_data/txtremoveEMPTY.py --data-path ../
 $ python3 ../../preprocess_TextGrid_data/train_val_split.py --data-path ../
 $ python3 ../../preprocess_TextGrid_data/punc_sym_to_punc.py --data-path ../
@@ -125,7 +125,7 @@ optional arguments:
 #use GPU
 $ cd /new_Multilingual-Sentence-Boundary-detection/
 #training
-$ python3 ./src/main.py --num-epochs 10 --train-data-path /sgh/xlm-roberta-base/ --val-data-path sgh/xlm-roberta-base/ --model-path /punctuator-model/model_10epoch- --eval-type valid/tst
+$ python3 ./src/main.py --num-epochs 10 --train-data-path /Indonesian/xlm-roberta-base/ --val-data-path Indonesian/xlm-roberta-base/ --model-path /punctuator-model/model_10epoch- --eval-type valid/tst
 #testing
-$ python3 ./src/main.py --train-data-path /sgh/xlm-roberta-base/ --val-data-path /sgh/xlm-roberta-base/ --action val --model-path /path/to/model/dir/ --stage model_10epoch-xlm-roberta-base-epoch-1.pth --eval-type valid/tst
+$ python3 ./src/main.py --train-data-path /Indonesian/xlm-roberta-base/ --val-data-path /Indonesian/xlm-roberta-base/ --action val --model-path /path/to/model/dir/ --stage model_10epoch-xlm-roberta-base-epoch-1.pth --eval-type valid/tst
 ```
