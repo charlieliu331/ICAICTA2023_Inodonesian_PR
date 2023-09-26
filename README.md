@@ -9,10 +9,9 @@ Modifications have been made to the notebooks, the data preprocessing, and the m
 
 Code modified based on [here](https://github.com/AetherPrior/Multilingual-Sentence-Boundary-detection/tree/main) by Abhinav Rao.
 
-Model available at https://drive.google.com/file/d/1bC-a0BrbVR3wsh2JZqu9KiMBf7nOK3T-/view?usp=sharing
+Model available at [https://drive.google.com/file/d/1bC-a0BrbVR3wsh2JZqu9KiMBf7nOK3T-/view?usp=sharing](https://drive.google.com/file/d/1D1T7MrYw3-juo1F8xHoEh-gvYTUaHUZw/view?usp=share_link)
 #### Pre-built:  
 
-Get the models [here]([https://drive.google.com/drive/folders/10NcydjpBwjIOHrm0g87LYS7Ebs8xPPP4?usp=sharing](https://drive.google.com/file/d/1D1T7MrYw3-juo1F8xHoEh-gvYTUaHUZw/view?usp=share_link)). 
 
 The dataset folder structure is as follows:  
 
