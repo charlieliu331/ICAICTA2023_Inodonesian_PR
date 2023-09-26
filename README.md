@@ -12,7 +12,7 @@ Code modified based on [here](https://github.com/AetherPrior/Multilingual-Senten
 Model available at https://drive.google.com/file/d/1bC-a0BrbVR3wsh2JZqu9KiMBf7nOK3T-/view?usp=sharing
 #### Pre-built:  
 
-Get the dataset [here](https://drive.google.com/drive/folders/10NcydjpBwjIOHrm0g87LYS7Ebs8xPPP4?usp=sharing). Store the dataset in any folder and provide the necessary arguments to the model  
+Get the models [here]([https://drive.google.com/drive/folders/10NcydjpBwjIOHrm0g87LYS7Ebs8xPPP4?usp=sharing](https://drive.google.com/file/d/1D1T7MrYw3-juo1F8xHoEh-gvYTUaHUZw/view?usp=share_link)). 
 
 The dataset folder structure is as follows:  
 
